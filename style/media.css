@@ -1,0 +1,179 @@
+@media screen and (max-width: 1280px) {
+    .get-in-touch__title {
+        padding: 3.5em 16em 1em;
+    }
+}
+
+/*ipad----------------------------------*/
+@media screen and (max-width: 769px) {
+    .container {
+        width: 80%;
+    }
+   
+    .gamburger {
+        display: block;
+    }
+
+    .nav {
+        order: -1;
+    }
+
+    .nav-body__menu, .header__logo {
+        display: none;
+    }
+
+    .header__title {
+        padding-top: 3em;
+    }
+
+    .about-body {
+        flex-wrap: wrap;
+    }
+
+    .about-body-text {
+        margin: 0;
+        width: 100%;
+    }
+
+    .about-body__cart--plan, .about-body__cart--manage, .about-body__cart--build {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .services-body__cart-description {
+        padding: 0 1.5em 1em;
+    }
+
+    .about-body__description {
+        margin-bottom: 2em;
+    }
+
+    .about-body-advantages {
+        width: 100%;
+    }
+
+    .services-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2em;
+    }
+
+    .services-header__description {
+        width: 85%;
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 2em;
+    }
+
+    .primary-title--services {
+        margin-bottom: 2em;
+    }
+
+    .primary-title::after {
+        left: calc(50% - 25px);
+    }
+
+    .services-body {
+        padding-top: 2em;
+    }
+
+    .get-in-touch__title {
+        padding: 1em 7em;
+    }
+
+    .button--newsletter {
+        margin: 0;
+    }
+
+    .footer-main__contacts {
+        width: 60%;
+        padding: 0;
+    }
+
+    .footer-main__social {
+        margin: 0;
+    }
+
+    .footer-main__social-icon {
+        margin-right: 2em;
+    }
+}
+
+/*iphone+ ----------------------------------*/
+@media screen and (max-width: 415px) {
+
+    .primary-title {
+        margin-bottom: 2.5em;
+    }
+
+    .about-body {
+        flex-direction: column;
+    }
+
+    .about-body-advantages, .about-body-text {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-body__cart {
+        width: 80%;
+        margin-top: 1em;
+    }
+
+    .primary-title::after {
+        left: calc(50% - 25px);
+        transform: translateY(2em);
+    }
+
+    .services-body__cart {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .get-in-touch__title {
+        padding: 0em 2em 1em;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        height: 180px;
+    }
+
+    .newsletter__title {
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    .newsletter-form {
+        width: 80%;
+    }
+
+    .button--newsletter {
+        margin-top: 2em;
+    }
+
+    .footer-main__company {
+        width: 100%;
+    }
+
+    .footer-main__links, .footer-main__faq, .footer-main__blog {
+        padding: 0;
+        width: 20%;
+    }
+
+    .footer-main__contacts {
+        width: 70%;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .header__subtitle {
+        font-size: 15px;
+    }
+}
